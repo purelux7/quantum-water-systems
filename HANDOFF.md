@@ -38,7 +38,18 @@ Pages, S3). No server required. Point the domain (e.g. QuantumWaterhouses.com) a
   If the brand is "Quantum Waterworks" or the site lives on QuantumWaterhouses.com,
   find-and-replace the brand name in `index.html` (nav, footer, `<title>`, OG tags).
 
-### 4. Copy / compliance
+### 4. Placeholders added for competitiveness (swap before promoting)
+- **Phone number** — currently `(949) 555-0100` (a fiction-reserved number that won't ring
+  anyone) in the topbar + nav (`tel:` links). Replace with the real business line.
+- **Testimonials** (`#reviews` section) — three SAMPLE reviews with "Client name" and a
+  visible "sample content" tag. **Replace with real, verifiable client reviews.**
+  Shipping fabricated reviews as real is illegal (FTC). Remove the `.reviews__note` line
+  once real reviews are in.
+- **Trust strip** (`.trustbar`) — badges are drawn from real product claims. Add genuine
+  certifications (NSF/ANSI) and CA contractor license # once confirmed, then remove
+  `.trustbar__note`.
+
+### 5. Copy / compliance
 - Health claims are deliberately conservative with an FDA disclaimer in the
   footer and science section. Have counsel review before adding stronger claims
   (cellular healing, oncology, etc. from the source deck were intentionally left out).
